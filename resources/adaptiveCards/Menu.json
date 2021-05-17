@@ -1,0 +1,21 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Click on the Menu!",
+        "weight": "bolder"
+      },
+      {
+        "type": "Image",
+        "url": "https://i.pinimg.com/564x/f0/77/a5/f077a520ee8627ecce1eb3d50edb16c2.jpg",
+        "selectAction": {
+          "type": "Action.OpenUrl",
+          "title": "cool link",
+          "url": "http://www.pastastreet.co.in/our-menu.html"
+        }
+      }
+    ]
+  }

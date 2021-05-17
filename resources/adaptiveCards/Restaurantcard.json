@@ -1,0 +1,53 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "speak": "Pasta Street is a italian restaurant which is rated 9.3 by customers.",
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": 2,
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "Customer Feedback"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Pasta Street",
+                "weight": "bolder",
+                "size": "extraLarge",
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "9.3 ★★★★★★★★★☆ (1100) · $$",
+                "isSubtle": true,
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "**Umang Mehta said** \"I'm compelled to give this place 10 stars due to the number of times I've chosen to eat here this past year!\"",
+                "size": "small",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": 1,
+            "items": [
+              {
+                "type": "Image",
+                "url": "https://curlytales.com/wp-content/uploads/2019/08/toscano-1.jpg",
+                "size": "auto"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

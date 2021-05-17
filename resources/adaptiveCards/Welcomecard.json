@@ -1,0 +1,46 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://i.pinimg.com/474x/35/eb/b8/35ebb83e9784772bdb0d3364c037af49.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to Pasta Street!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "You can use this service to make a reservation, cancel an existing reservation or to get details about restaurant.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get an overview",
+      "url": "http://www.pastastreet.co.in/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Ask a question",
+      "url": "http://www.pastastreet.co.in/contact.html"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Restarurant Location",
+      "url": "https://goo.gl/maps/NwN3WiGCbEvbS6597"
+    }
+  ]
+}
